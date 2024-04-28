@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>icons\1.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="icons\1.ico" />
+    <None Remove="icons\2.ico" />
+    <None Remove="images\no_image.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="icons\1.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icons\1.ico" />
+    <Resource Include="icons\2.ico" />
+    <Resource Include="images\no_image.jpg" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties no_x0020_name_3ll_1json__JsonSchema="https://alec016.github.io/Custom-Machinery/Json%20Schema/src/main/resources/schemas/custom_machinery_machine.json" /></VisualStudio></ProjectExtensions>
+
+</Project>
